@@ -1,0 +1,21 @@
+/*
+  请在这里替换你想要的背景图片 URL。
+  取消下面 `background-image` 这一行的注释，并填入你的图片链接。
+  例如:
+  background-image: url(https://source.unsplash.com/random/1920x1080) !important;
+*/
+body {
+  /* background-image: url('在这里填入你的图片URL') !important; */
+
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* 
+  这段代码会覆盖主题原来的背景颜色，
+  让你的背景图片可以完整显示。
+*/
+:root {
+  --page-background: transparent !important;
+}
